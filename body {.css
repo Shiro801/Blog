@@ -1,0 +1,89 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to bottom right, #f2d1e8, #d1e7f2);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 5px solid #dda0dd;
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+nav {
+    background-color: #dda0dd;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+main h2 {
+    color: #da70d6;
+}
+
+footer {
+    background-color: #dda0dd;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.icons {
+    background: url('https://i.imgur.com/3c1NB7b.png') repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
